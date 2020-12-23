@@ -1,6 +1,7 @@
-from src.filechanges import get_base_file
-from src.filechanges import connect_db
 import sqlite3
+
+from src.filechanges import get_base_file, connect_db
+
 
 def test_get_base_file():
     db_file = get_base_file()
